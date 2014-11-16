@@ -1,3 +1,3 @@
 exports.mymod = function() {
-  box( blocks.stone ). fwd ( 1 ). times ( 10 );
+  box( blocks.stone ). fwd ( 1 ). times ( 50 );
 };
