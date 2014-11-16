@@ -1,2 +1,3 @@
-exports
-box( blocks.stone ). up ( 1 ). times ( 3 ). right ( 1 ). times ( 5 )
+exports.whall = function() {
+  box( blocks.stone ). up ( 1 ). times ( 3 ). right ( 1 ). times ( 5 )
+};
