@@ -17,6 +17,8 @@ exports.spawn = {
 	skeletons: function( self, number, drone ){
 		if( number ){
 			while( number > 0){
+				this.skeleton( self, drone )
+			 
 				echo( number );
 				number = number - 1;
 			}
