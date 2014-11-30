@@ -19,11 +19,17 @@ exports.spawn = {
 			while( number > 0){
 				this.skeleton( self, drone )
 			 
-				echo( number );
+				
 				number = number - 1;
 			}
 			
 		}
+	}
+	
+	aldingetlokation: function( self ){
+		var location = self.getLocation();
+		location.y = location.y + 1;
+		return location;
 	}
 	
 }
