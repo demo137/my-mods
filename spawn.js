@@ -24,7 +24,7 @@ exports.spawn = {
 			}
 			
 		}
-	}
+	},
 	
 	aldingetlokation: function( self ){
 		var location = self.getLocation();
