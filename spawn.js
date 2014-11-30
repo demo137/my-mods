@@ -13,5 +13,15 @@ exports.spawn = {
 	},
 	skeleton: function( self, drone ) {
 		this.spawn( self, 'SKELETON', drone );
+	},
+	skeletons: function( self, number, drone ){
+		if( number ){
+			while( number > 0){
+				echo( number );
+				number = number - 1;
+			}
+			
+		}
 	}
+	
 }
