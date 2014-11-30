@@ -3,7 +3,7 @@ exports.spawn = {
 		var world = self.getWorld();
 		var entity = org.bukkit.entity.EntityType[ type ];
 		if( drone ) {
-			world.spawnCreature( drone.getLocation(), entity );
+			world.spawnCreature( drone, entity );
 		} else {
 			world.spawnCreature( self.getLocation().add( 3, 0, 3 ), entity )
 		}
