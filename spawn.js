@@ -10,5 +10,8 @@ exports.spawn = {
 	},
 	zombie: function( self, drone ) {
 		this.spawn( self, 'ZOMBIE', drone );
+	},
+	skeleton: function( self, drone ) {
+		this.spawn( self, 'SKELETON', drone );
 	}
 }
